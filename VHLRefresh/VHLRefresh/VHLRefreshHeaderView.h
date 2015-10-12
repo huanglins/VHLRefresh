@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "VHLRefreshComponent.h"
 
-@interface VHLRefreshHeaderView : UIView
+/**
+ *  下拉刷新视图
+ */
+@interface VHLRefreshHeaderView : VHLRefreshComponent
 
 @end

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5F2F8DD5-7F90-4512-B711-C4C7ED6F7DB7</string>
+	<key>IDESourceControlProjectName</key>
+	<string>VHLRefresh</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>02359C32A419027EBF6F1AC23B5FD3D93A879415</key>
+		<string>https://github.com/huanglins/VHLRefresh.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>VHLRefresh.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>02359C32A419027EBF6F1AC23B5FD3D93A879415</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/huanglins/VHLRefresh.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>02359C32A419027EBF6F1AC23B5FD3D93A879415</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>02359C32A419027EBF6F1AC23B5FD3D93A879415</string>
+			<key>IDESourceControlWCCName</key>
+			<string>VHLRefresh</string>
+		</dict>
+	</array>
+</dict>
+</plist>

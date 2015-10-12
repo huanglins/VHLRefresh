@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF0E684A1BCB5DB8002AAE19 /* VHLZhihuRefreshHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0E68491BCB5DB8002AAE19 /* VHLZhihuRefreshHeaderView.m */; settings = {ASSET_TAGS = (); }; };
 		BF80E8181BC8B0EB0037E0EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF80E8171BC8B0EB0037E0EB /* main.m */; };
 		BF80E81B1BC8B0EB0037E0EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF80E81A1BC8B0EB0037E0EB /* AppDelegate.m */; };
 		BF80E81E1BC8B0EB0037E0EB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF80E81D1BC8B0EB0037E0EB /* ViewController.m */; };
@@ -14,6 +15,10 @@
 		BF80E8231BC8B0EB0037E0EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF80E8221BC8B0EB0037E0EB /* Images.xcassets */; };
 		BF80E8261BC8B0EB0037E0EB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF80E8241BC8B0EB0037E0EB /* LaunchScreen.xib */; };
 		BF80E8321BC8B0EC0037E0EB /* VHLRefreshTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF80E8311BC8B0EC0037E0EB /* VHLRefreshTests.m */; };
+		BF80E83E1BC8B1120037E0EB /* UIScrollView+VHLRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = BF80E83D1BC8B1120037E0EB /* UIScrollView+VHLRefresh.m */; };
+		BF80E8411BC8B12B0037E0EB /* VHLRefreshHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF80E8401BC8B12B0037E0EB /* VHLRefreshHeaderView.m */; };
+		BF80E8441BC8B1460037E0EB /* VHLRefreshFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF80E8431BC8B1460037E0EB /* VHLRefreshFooterView.m */; };
+		BF80E8471BC8B8320037E0EB /* VHLRefreshComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = BF80E8461BC8B8320037E0EB /* VHLRefreshComponent.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF0E68481BCB5DB8002AAE19 /* VHLZhihuRefreshHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VHLZhihuRefreshHeaderView.h; sourceTree = "<group>"; };
+		BF0E68491BCB5DB8002AAE19 /* VHLZhihuRefreshHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VHLZhihuRefreshHeaderView.m; sourceTree = "<group>"; };
 		BF80E8121BC8B0EB0037E0EB /* VHLRefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VHLRefresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF80E8161BC8B0EB0037E0EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF80E8171BC8B0EB0037E0EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +47,14 @@
 		BF80E82B1BC8B0EC0037E0EB /* VHLRefreshTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VHLRefreshTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF80E8301BC8B0EC0037E0EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF80E8311BC8B0EC0037E0EB /* VHLRefreshTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VHLRefreshTests.m; sourceTree = "<group>"; };
+		BF80E83C1BC8B1120037E0EB /* UIScrollView+VHLRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+VHLRefresh.h"; sourceTree = "<group>"; };
+		BF80E83D1BC8B1120037E0EB /* UIScrollView+VHLRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+VHLRefresh.m"; sourceTree = "<group>"; };
+		BF80E83F1BC8B12B0037E0EB /* VHLRefreshHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VHLRefreshHeaderView.h; sourceTree = "<group>"; };
+		BF80E8401BC8B12B0037E0EB /* VHLRefreshHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VHLRefreshHeaderView.m; sourceTree = "<group>"; };
+		BF80E8421BC8B1460037E0EB /* VHLRefreshFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VHLRefreshFooterView.h; sourceTree = "<group>"; };
+		BF80E8431BC8B1460037E0EB /* VHLRefreshFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VHLRefreshFooterView.m; sourceTree = "<group>"; };
+		BF80E8451BC8B8320037E0EB /* VHLRefreshComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VHLRefreshComponent.h; sourceTree = "<group>"; };
+		BF80E8461BC8B8320037E0EB /* VHLRefreshComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VHLRefreshComponent.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +96,9 @@
 		BF80E8141BC8B0EB0037E0EB /* VHLRefresh */ = {
 			isa = PBXGroup;
 			children = (
+				BF80E83B1BC8B1050037E0EB /* VHLRefresh */,
+				BF0E68481BCB5DB8002AAE19 /* VHLZhihuRefreshHeaderView.h */,
+				BF0E68491BCB5DB8002AAE19 /* VHLZhihuRefreshHeaderView.m */,
 				BF80E8191BC8B0EB0037E0EB /* AppDelegate.h */,
 				BF80E81A1BC8B0EB0037E0EB /* AppDelegate.m */,
 				BF80E81C1BC8B0EB0037E0EB /* ViewController.h */,
@@ -117,6 +135,21 @@
 				BF80E8301BC8B0EC0037E0EB /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF80E83B1BC8B1050037E0EB /* VHLRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				BF80E8451BC8B8320037E0EB /* VHLRefreshComponent.h */,
+				BF80E8461BC8B8320037E0EB /* VHLRefreshComponent.m */,
+				BF80E83F1BC8B12B0037E0EB /* VHLRefreshHeaderView.h */,
+				BF80E8401BC8B12B0037E0EB /* VHLRefreshHeaderView.m */,
+				BF80E8421BC8B1460037E0EB /* VHLRefreshFooterView.h */,
+				BF80E8431BC8B1460037E0EB /* VHLRefreshFooterView.m */,
+				BF80E83C1BC8B1120037E0EB /* UIScrollView+VHLRefresh.h */,
+				BF80E83D1BC8B1120037E0EB /* UIScrollView+VHLRefresh.m */,
+			);
+			path = VHLRefresh;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,7 +196,7 @@
 		BF80E80A1BC8B0EB0037E0EB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Darnel Studio";
 				TargetAttributes = {
 					BF80E8111BC8B0EB0037E0EB = {
@@ -219,9 +252,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF80E8441BC8B1460037E0EB /* VHLRefreshFooterView.m in Sources */,
+				BF80E83E1BC8B1120037E0EB /* UIScrollView+VHLRefresh.m in Sources */,
 				BF80E81E1BC8B0EB0037E0EB /* ViewController.m in Sources */,
+				BF0E684A1BCB5DB8002AAE19 /* VHLZhihuRefreshHeaderView.m in Sources */,
+				BF80E8411BC8B12B0037E0EB /* VHLRefreshHeaderView.m in Sources */,
 				BF80E81B1BC8B0EB0037E0EB /* AppDelegate.m in Sources */,
 				BF80E8181BC8B0EB0037E0EB /* main.m in Sources */,
+				BF80E8471BC8B8320037E0EB /* VHLRefreshComponent.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +322,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -349,9 +388,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = VHLRefresh/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.vincents.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d3cee40d-4fcf-412c-a8db-e0674cb0261a";
 			};
 			name = Debug;
 		};
@@ -359,9 +401,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = VHLRefresh/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.vincents.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d3cee40d-4fcf-412c-a8db-e0674cb0261a";
 			};
 			name = Release;
 		};
@@ -379,6 +424,7 @@
 				);
 				INFOPLIST_FILE = VHLRefreshTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.vincents.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VHLRefresh.app/VHLRefresh";
 			};
@@ -394,6 +440,7 @@
 				);
 				INFOPLIST_FILE = VHLRefreshTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.vincents.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VHLRefresh.app/VHLRefresh";
 			};
@@ -418,6 +465,7 @@
 				BF80E8371BC8B0EC0037E0EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF80E8381BC8B0EC0037E0EB /* Build configuration list for PBXNativeTarget "VHLRefreshTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +474,7 @@
 				BF80E83A1BC8B0EC0037E0EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
